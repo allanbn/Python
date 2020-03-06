@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+f = int(input())
+x = (a + b + c) / 3
+y = ((a * d) + (b * e) + (c * f)) / (d + e + f)
+z = 3 / ((1 / a) + (1 / b) + (1 / c))
+print('a: {}\np: {}\nh: {}'.format(x, y, z))

@@ -1,0 +1,13 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = (a + b + c + d) * 0.01
+f = (a // e)
+h =(b // e)
+i = (c // e)
+j = (d // e)
+print('Candidato A: {}%'.format(f))
+print('Candidato B: {}%'.format(h))
+print('Candidato C: {}%'.format(i))
+print('Nulos: {}%'.format(j))
